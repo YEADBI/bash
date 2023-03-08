@@ -313,7 +313,7 @@ do
                     curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add - -y
                     sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable" -y
                     sudo apt update -y
-                    apt-cache policy docker-ce -y
+                    sudo apt-cache policy docker-ce -y
                     sudo apt install docker-ce -y
 
                     echo "-----------------------------------------------------------------------------"
