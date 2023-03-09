@@ -28,3 +28,18 @@ _**Observación**_ gitbash requiere parámetros para su ejecución, al omitir es
  >>> [ ./orquestador.sh -h ] >>>>                          
  ------------------------------------------------------------------------------------
 ```
+## Configuración de llaves SSH
+
+```sh
+# Crear llave SSH: ssh-keygen
+    Ubuntu:~$ ssh-keygen
+
+    /home/ubuntu/.ssh/id_rsa
+    Your identification has been saved in /home/ubuntu/.ssh/id_rsa
+    Your public key has been saved in /home/ubuntu/.ssh/id_rsa.pub
+
+    Ubuntu:~$ cat ~/.ssh/id_rsa.pub
+
+AASDAB3NzaC1yc2EAAAADAQABAAABgQDCxtlKq4Lbe+4GM/NyB39h3hIaZay3NJE5d/pkO7xdBpcEmqgj1MItuhExKwjrYJ7UGhLckh3Kdst3u8F1DV47OQZbjAAr7+1Cp1dmBwvnKsjiHO5A9lBm8O3bJX5kNxaxWoqqLBRG4cQHUGSKQLJYWp5cxV14HDKAHTY5546HFDGKtaSdt6zB/KDMfHtKFNu4umVMb/QGeF8BMHkk4/V+mMTIDkQmX5ownOO0YQi8TjDOIAPt0adqoACvJZABhFz7wvjTHDiQRqy4T4MEeHkrvavFL1CRaM8gTsqGsVkQYxFUt67BNF3KDYXsirBe/NAuRK1u6EvI5QLXrKf3+dgHqPGPzci+kGHLuh8yDONZHwTrIxvdZGQaY8bVpWejcejHOj4olNuI9MshnNJDMnuaWsrXfAtGdjZb4oMDuhl268OQmWHJMbd0ML1Ng/4JqS/eAoAVnxsJYkLWQSALRAp0MuvfVS4BQIJzslGshtfnFvtTcuHc= ubuntu
+```
+Adicione llave a github settings > SSH and GPG keys > Authentication Keys > New SSH key > tittle > key > add key
