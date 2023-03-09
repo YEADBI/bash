@@ -20,9 +20,7 @@ _**Ejecución:**_
 # Ejecución
     Ubuntu:~$ ./gitbash "Documentación"  "Scripting"
 ```
-_**Observación**_ gitbash requiere parámetros para su ejecución, al omitir estos datos,  se le reporta al usuario la siguiente advertencia.
-
-_**Observación**_ gitbash requiere parámetros para su ejecución, al omitir estos datos,  se le reporta al usuario la siguiente advertencia.
+_**Observación**_ gitbash requiere parámetros para su ejecución, al omitir estos datos, se le reporta al usuario la siguiente advertencia:
 
 ```sh
  ------------------------------------------------------------------------------------
