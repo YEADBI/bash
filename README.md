@@ -3,8 +3,8 @@
 
 ```bash
 # Configuración global 
-    git config --global user.email "yesidizq@hotmail.com"
-    git config --global user.name "Yesid Briceño"
+    git config --global user.email "Adesjor@hotmail.com"
+    git config --global user.name "Andrés"
     git config --global core.autocrlf false 
 ```
 
